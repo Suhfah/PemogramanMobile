@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBCD">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="#C0392B"
+        android:textColorLink="#CO392B"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_below="@id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="0dp"
+
+        android:fontFamily="sans-serif-black"
+        android:text="Jasa Service AC/Kulkas"
+        android:textAlignment="center"
+        android:textColor="#451212"
+        android:textColorLink="#00000"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:layout_alignBottom=""
+        android:layout_marginBottom=""
+        android:width="250dp"
+        android:text="LOGIN"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="328dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/baseline_home_repair_service_24" />
+
+
+</RelativeLayout>
